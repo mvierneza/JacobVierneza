@@ -4,234 +4,366 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jacob Vierneza Golf Recruiting | Class of 2028</title>
-  <meta name="description" content="Jacob Vierneza golf recruiting profile - Class of 2028, Junípero Serra High School, Redwood City, CA." />
-  <link rel="stylesheet" href="styles.css" />
+  <style>
+    :root {
+      --blue: #002f6c;
+      --yellow: #ffd100;
+      --dark: #111827;
+      --light: #f8fafc;
+      --white: #ffffff;
+      --gray: #6b7280;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: var(--light);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--blue), #001f49);
+      color: var(--white);
+      padding: 60px 20px;
+      text-align: center;
+      border-bottom: 8px solid var(--yellow);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+    }
+
+    .buttons {
+      margin-top: 25px;
+    }
+
+    .button {
+      display: inline-block;
+      background: var(--yellow);
+      color: var(--blue);
+      padding: 12px 22px;
+      margin: 6px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .button.secondary {
+      background: var(--white);
+      color: var(--blue);
+    }
+
+    nav {
+      background: var(--yellow);
+      padding: 14px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 99;
+    }
+
+    nav a {
+      color: var(--blue);
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 12px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 35px 20px;
+    }
+
+    section {
+      background: var(--white);
+      margin-bottom: 28px;
+      padding: 28px;
+      border-radius: 14px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      border-top: 6px solid var(--blue);
+    }
+
+    h2 {
+      color: var(--blue);
+      margin-bottom: 18px;
+      font-size: 1.6rem;
+      border-bottom: 3px solid var(--yellow);
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: #f1f5f9;
+      padding: 18px;
+      border-radius: 12px;
+      border-left: 5px solid var(--yellow);
+    }
+
+    .card strong {
+      color: var(--blue);
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+    }
+
+    .stat {
+      background: var(--blue);
+      color: var(--white);
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .stat span {
+      display: block;
+      color: var(--yellow);
+      font-size: 1.7rem;
+      font-weight: bold;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 22px;
+    }
+
+    .video-card {
+      background: #f1f5f9;
+      padding: 14px;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .video-card h3 {
+      color: var(--blue);
+      margin-bottom: 10px;
+    }
+
+    iframe {
+      width: 100%;
+      aspect-ratio: 9 / 16;
+      border: none;
+      border-radius: 12px;
+      background: #000;
+    }
+
+    footer {
+      text-align: center;
+      background: var(--blue);
+      color: var(--white);
+      padding: 25px;
+      border-top: 6px solid var(--yellow);
+    }
+
+    footer a {
+      color: var(--yellow);
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 6px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <header class="hero">
-    <nav class="nav">
-      <div class="brand">Jacob Vierneza Golf</div>
-      <div class="nav-links">
-        <a href="#rankings">Rankings</a>
-        <a href="#results">Results</a>
-        <a href="#videos">Swing Videos</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
 
-    <section class="hero-content">
-      <p class="eyebrow">Class of 2028 • Redwood City, California</p>
-      <h1>Jacob Vierneza</h1>
-      <p class="subtitle">Junior Golf Recruit | Junípero Serra High School | Varsity Golf</p>
-      <div class="hero-buttons">
-        <a class="btn primary" href="#contact">Contact</a>
-        <a class="btn secondary" href="#resume">View Resume</a>
-      </div>
-    </section>
-  </header>
+<header>
+  <h1>Jacob Vierneza</h1>
+  <p>Class of 2028 | Junípero Serra High School | San Mateo, CA</p>
+  <p>Right-Handed Golfer | Junior Golf Recruiting Profile</p>
 
-  <main>
-    <section class="section intro">
-      <div>
-        <h2>Player Profile</h2>
-        <p>
-          Jacob Vierneza is a Class of 2028 student-athlete at Junípero Serra High School in San Mateo, California.
-          He balances strong academics with a competitive junior golf schedule across regional and national events.
-        </p>
-      </div>
-      <div class="profile-card">
-        <p><strong>Graduation Year:</strong> 2028</p>
-        <p><strong>School:</strong> Junípero Serra High School</p>
-        <p><strong>Hometown:</strong> Redwood City, CA</p>
-        <p><strong>GPA:</strong> 3.42</p>
-      </div>
-    </section>
-
-    <section id="rankings" class="section">
-      <h2>JGS Rankings Snapshot</h2>
-      <div class="stats-grid">
-        <div class="stat"><span>#571</span><p>JGS Class of 2028 National Ranking</p></div>
-        <div class="stat"><span>#64</span><p>California Class of 2028 Ranking</p></div>
-        <div class="stat"><span>75.41</span><p>Gross Scoring Average</p></div>
-        <div class="stat"><span>1.71</span><p>Scoring Differential</p></div>
-        <div class="stat"><span>8</span><p>JGS Ranked Events</p></div>
-        <div class="stat"><span>83.00</span><p>Strength of Tournament</p></div>
-      </div>
-      <p class="note">
-        JGS profile note: Visit Junior Golf Scoreboard and search “Jacob Vierneza” to view the current live profile and results.
-      </p>
-    </section>
-
-    <section id="results" class="section">
-      <h2>Tournament Highlights</h2>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Date</th>
-              <th>Tournament</th>
-              <th>Scores</th>
-              <th>Total</th>
-              <th>Finish</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Jul 10–11, 2025</td>
-              <td>JGANC 89th East Bay Junior Championship</td>
-              <td>69–74</td>
-              <td>143</td>
-              <td>T1</td>
-            </tr>
-            <tr>
-              <td>May 02–03, 2026</td>
-              <td>Junior Tour of Northern California - Spring Series VII</td>
-              <td>68–71</td>
-              <td>139</td>
-              <td>T8</td>
-            </tr>
-            <tr>
-              <td>Jan 17–18, 2026</td>
-              <td>USKG Teen Series at Coyote Creek</td>
-              <td>75–71</td>
-              <td>146</td>
-              <td>T8</td>
-            </tr>
-            <tr>
-              <td>Jul 21–24, 2025</td>
-              <td>AJGA TaylorMade Qi35 Junior All-Star</td>
-              <td>80–72–80</td>
-              <td>232</td>
-              <td>T37</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-<!-- SWING VIDEOS SECTION -->
-
-<section id="videos" class="section video-section">
-  <h2>Coach Evaluation Videos</h2>
-
-  <p class="video-intro">
-    Driver, iron, short game, and putting videos are available below for
-    college coach evaluation.
-  </p>
-
-  <div class="video-grid">
-
-```
-<a class="video-card"
-   href="https://youtube.com/shorts/VDEMr_wW3wc?si=STxA4sG0s7Q4AJva"
-   target="_blank">
-
-  <img src="https://img.youtube.com/vi/VDEMr_wW3wc/maxresdefault.jpg"
-       alt="Driver Swing">
-
-  <div class="video-info">
-    <h3>Driver Swing</h3>
-    <p>View Driver Video</p>
+  <div class="buttons">
+    <a class="button" href="mailto:jacobvierneza@gmail.com">Email Jacob</a>
+    <a class="button secondary" href="tel:4159189036">Call: 415-918-9036</a>
+    <a class="button" href="#" target="_blank">JGS Profile</a>
   </div>
-</a>
+</header>
 
-<a class="video-card"
-   href="https://www.youtube.com/shorts/u0_DwaInVAw"
-   target="_blank">
+<nav>
+  <a href="#profile">Profile</a>
+  <a href="#academics">Academics</a>
+  <a href="#highlights">Highlights</a>
+  <a href="#schedule">Schedule</a>
+  <a href="#videos">Videos</a>
+  <a href="#references">References</a>
+</nav>
 
-  <img src="https://img.youtube.com/vi/u0_DwaInVAw/maxresdefault.jpg"
-       alt="Iron Swing">
+<div class="container">
 
-  <div class="video-info">
-    <h3>Iron Swing</h3>
-    <p>View Iron Video</p>
+<section id="profile">
+  <h2>Player Profile</h2>
+
+  <div class="stats">
+    <div class="stat">JGS 2028 Rank <span>#569</span></div>
+    <div class="stat">California 2028 Rank <span>#64</span></div>
+    <div class="stat">Scoring Average <span>75.41</span></div>
+    <div class="stat">Scoring Differential <span>1.71</span></div>
   </div>
-</a>
 
-<a class="video-card"
-   href="https://youtube.com/shorts/9dEL0GGUUOs?si=3Hqn9XRMr5ngDTnG"
-   target="_blank">
+  <br>
 
-  <img src="https://img.youtube.com/vi/9dEL0GGUUOs/maxresdefault.jpg"
-       alt="Chipping">
-
-  <div class="video-info">
-    <h3>Chipping / Short Game</h3>
-    <p>View Short Game Video</p>
-  </div>
-</a>
-
-<a class="video-card"
-   href="https://www.youtube.com/shorts/Xjx3Scrk9rI"
-   target="_blank">
-
-  <img src="https://img.youtube.com/vi/Xjx3Scrk9rI/maxresdefault.jpg"
-       alt="Putting">
-
-  <div class="video-info">
-    <h3>Putting</h3>
-    <p>View Putting Video</p>
-  </div>
-</a>
-```
-
+  <div class="grid">
+    <div class="card"><strong>Height:</strong> ___</div>
+    <div class="card"><strong>Weight:</strong> ___</div>
+    <div class="card"><strong>Handedness:</strong> Right</div>
+    <div class="card"><strong>Home Course:</strong> ___</div>
   </div>
 </section>
 
+<section id="academics">
+  <h2>Academic Information</h2>
+  <div class="grid">
+    <div class="card"><strong>High School:</strong> Junípero Serra High School</div>
+    <div class="card"><strong>Graduation Year:</strong> 2028</div>
+    <div class="card"><strong>GPA:</strong> 3.42</div>
+    <div class="card"><strong>SAT/ACT:</strong> N/A</div>
+  </div>
+</section>
 
+<section id="highlights">
+  <h2>Tournament Highlights</h2>
+  <ul>
+    <li><strong>T1</strong> — JGANC 89th East Bay Junior Championship: 69-74</li>
+    <li><strong>T8</strong> — JTNC Spring Series VII: 68-71</li>
+    <li><strong>T8</strong> — USKG Teen Series at Coyote Creek: 75-71</li>
+  </ul>
+</section>
 
-    <section id="schedule" class="section">
-      <h2>Upcoming Schedule</h2>
-      <p>Add upcoming AJGA, JTNC, JGANC, UGT, USKG, and high school events here so college coaches know where they can watch Jacob compete.</p>
-      <ul class="schedule-list">
-        <li><strong>Upcoming Event:</strong> Add tournament name, date, course, and location.</li>
-        <li><strong>Upcoming Event:</strong> Add tournament name, date, course, and location.</li>
-        <li><strong>Upcoming Event:</strong> Add tournament name, date, course, and location.</li>
-      </ul>
-    </section>
+<section id="schedule">
+  <h2>Upcoming Schedule</h2>
+  <ul>
+    <li>US Junior Amateur Qualifier — June 15</li>
+    <li>TTC Q-School Qualifier — June 18-19</li>
+    <li>UGT Mark Bostick Golf Course — July 1-2</li>
+    <li>UGT Troon North — July 14-15</li>
+    <li>UGT Seaview Golf Club — July 22-23</li>
+    <li>UGT Hillcrest Country Club — August 3-4</li>
+  </ul>
+</section>
 
-    <section id="resume" class="section resume-box">
-      <h2>Tournament Resume</h2>
-      <p>Upload Jacob's PDF resume to this GitHub repository and link it here.</p>
-      <a class="btn primary" href="#" target="_blank">Download Golf Resume</a>
-    </section>
+<section>
+  <h2>Athletic Honors & Experience</h2>
+  <ul>
+    <li>Varsity Golf — WCAL First Team All League</li>
+    <li>Junípero Serra High School Golf Team</li>
+    <li>AJGA Competitor</li>
+    <li>Underrated Golf Tour Competitor</li>
+    <li>JTNC Competitor</li>
+  </ul>
+</section>
 
-    <section id="contact" class="section contact">
-      <h2>Contact</h2>
-      <div class="contact-grid">
-        <div>
-          <h3>Player</h3>
-          <p><strong>Jacob Vierneza</strong></p>
-          <p>Email: add-player-email@example.com</p>
-          <p>Phone: add-player-phone</p>
-        </div>
-        <div>
-          <h3>Parent Contact</h3>
-          <p><strong>Matthew Vierneza</strong></p>
-          <p>Email: matthewvierneza@gmail.com</p>
-          <p>Phone: add-parent-phone</p>
-        </div>
-        <div>
-          <h3>Coach / References</h3>
-          <p>Add swing coach, high school coach, or tournament coach contact here.</p>
-        </div>
-      </div>
-    </section>
-  </main>
+<section>
+  <h2>About Jacob</h2>
+  <p>
+    Outside of golf, I value staying connected to my community, family, and the people who have supported my journey.
+    One experience that had a meaningful impact on me was participating in an AJGA fundraising event, which reinforced
+    how fortunate I am to play the game and the importance of giving back to others.
+  </p>
+  <br>
+  <p>
+    I also enjoy following Bay Area sports teams, spending time outdoors with friends, and staying active through other
+    sports such as basketball. These experiences have helped shape my character by teaching me the value of teamwork,
+    leadership, perspective, and gratitude. Whether on the golf course, in the classroom, or within my community, I strive
+    to represent something bigger than myself and make a positive impact on those around me.
+  </p>
+</section>
 
-  <footer>
-    <p>© 2026 Jacob Vierneza Golf Recruiting. Built for college coach recruiting review.</p>
-  </footer>
+<section id="videos">
+  <h2>Swing Videos</h2>
+
+  <div class="video-grid">
+    <div class="video-card">
+      <h3>Putter</h3>
+      <iframe src="https://www.youtube.com/embed/Xjx3Scrk9rI" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+      <h3>Driver</h3>
+      <iframe src="https://www.youtube.com/embed/VDEMr_wW3wc" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+      <h3>Iron</h3>
+      <iframe src="https://www.youtube.com/embed/u0_DwaInVAw" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+      <h3>Chipping</h3>
+      <iframe src="https://www.youtube.com/embed/9dEL0GGUUOs" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<section id="references">
+  <h2>References</h2>
+
+  <div class="grid">
+    <div class="card">
+      <strong>High School Coach</strong><br>
+      Mike Langridge<br>
+      Phone: 650-995-3585<br>
+      Email: <a href="mailto:mlangridge@serrahs.com">mlangridge@serrahs.com</a>
+    </div>
+
+    <div class="card">
+      <strong>Swing Coach</strong><br>
+      Richard Sheridan<br>
+      Phone: 415-316-4140<br>
+      Email: ___
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p><strong>Jacob Vierneza</strong></p>
+  <p>Phone: <a href="tel:4159189036">415-918-9036</a></p>
+  <p>Email: <a href="mailto:jacobvierneza@gmail.com">jacobvierneza@gmail.com</a></p>
+</section>
+
+</div>
+
+<footer>
+  <p>Jacob Vierneza Golf Recruiting Profile | Class of 2028</p>
+</footer>
+
 </body>
 </html>
-
-<section id="videos" class="section video-section">
-  <h2>Coach Evaluation Videos</h2>
-  <p class="video-intro">
-    Driver, iron, short game, and putting videos are available below for college coach evaluation.
-  </p>
-
-  <div class="video-grid">
-    <!-- video cards here -->
-  </div>
-</section>
