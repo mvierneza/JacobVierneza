@@ -172,27 +172,7 @@ tbody tr:hover {
 background: #fff8e1;
 }
 
-.video-grid,
-.contact-grid {
-display: grid;
-grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-gap: 20px;
-}
 
-.video-card {
-background: white;
-padding: 20px;
-border-left: 5px solid var(--serra-gold);
-border-radius: 10px;
-text-decoration: none;
-color: var(--serra-blue);
-font-weight: bold;
-}
-
-.video-card:hover {
-background: var(--serra-blue);
-color: white;
-}
 
 .schedule-list li {
 margin-bottom: 10px;
